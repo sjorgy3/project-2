@@ -115,6 +115,12 @@
 		<Unit filename="C:/Users/18017/CS236/project-2/CommentAutomaton.h">
 			<Option target="project_2"/>
 		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/DatalogProgram.cpp">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/DatalogProgram.h">
+			<Option target="project_2"/>
+		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-2/EOFAutomaton.cpp">
 			<Option target="project_2"/>
 		</Unit>

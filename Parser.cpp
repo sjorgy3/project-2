@@ -4,3 +4,13 @@
 
 #include "Parser.h"
 #include "Token.h"
+#include "lexer.h"
+void iterateThroughTokens(){
+
+}
+Parser::Parser(vector<Token *> tokensFromMain) {
+    tokens = tokensFromMain;
+
+
+}
+

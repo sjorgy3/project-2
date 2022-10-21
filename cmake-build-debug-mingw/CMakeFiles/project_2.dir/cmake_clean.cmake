@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj"
   "CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj"
   "CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj"
+  "CMakeFiles/project_2.dir/DatalogProgram.cpp.obj"
   "CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj"
   "CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj"
   "CMakeFiles/project_2.dir/IDAutomaton.cpp.obj"

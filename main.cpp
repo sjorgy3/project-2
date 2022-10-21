@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include "Parser.h"
 
 using namespace std;
 
@@ -16,15 +17,7 @@ int main(int argc, char** argv) {
         text += line + '\n';
     }
 
-//
-//    if (infile.is_open()){
-//        stringstream str;
-//        str << infile.rdbuf();
-//        text = str.str();
-//
-//
-//
-//    }
+
     infile.close();
 
 
@@ -32,7 +25,9 @@ int main(int argc, char** argv) {
     Lexer* lexer = new Lexer();
 
 
-    lexer->Run(text);
+    vector<Token*>tokenVector = lexer->Run(text);
+    Parser* parser = new Parser(tokenVector);
+
 
 
     delete lexer;

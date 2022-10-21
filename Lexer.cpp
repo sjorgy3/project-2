@@ -56,7 +56,7 @@ void Lexer::CreateAutomata() {
     // TODO: Add the other needed automata here
 }
 
-void Lexer::Run(std::string& input) {
+vector<Token *> Lexer::Run(std::string& input) {
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
     int lineNumber = 1;
     int inputRead = 0;
@@ -124,6 +124,8 @@ void Lexer::Run(std::string& input) {
     }
 
     cout<<"Total Tokens = " << (int)tokens.size();
+    return tokens;
+
 
 
 }

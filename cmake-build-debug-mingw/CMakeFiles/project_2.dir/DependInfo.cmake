@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/18017/CS236/project-2/ColonDashAutomaton.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj"
   "C:/Users/18017/CS236/project-2/CommaAutomaton.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj"
   "C:/Users/18017/CS236/project-2/CommentAutomaton.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj"
+  "C:/Users/18017/CS236/project-2/DatalogProgram.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/DatalogProgram.cpp.obj"
   "C:/Users/18017/CS236/project-2/EOFAutomaton.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj"
   "C:/Users/18017/CS236/project-2/FactsAutomaton.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj"
   "C:/Users/18017/CS236/project-2/IDAutomaton.cpp" "C:/Users/18017/CS236/project-2/cmake-build-debug-mingw/CMakeFiles/project_2.dir/IDAutomaton.cpp.obj"

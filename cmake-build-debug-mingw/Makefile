@@ -277,6 +277,33 @@ CommentAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/CommentAutomaton.cpp.s
 .PHONY : CommentAutomaton.cpp.s
 
+DatalogProgram.obj: DatalogProgram.cpp.obj
+
+.PHONY : DatalogProgram.obj
+
+# target to build an object file
+DatalogProgram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/DatalogProgram.cpp.obj
+.PHONY : DatalogProgram.cpp.obj
+
+DatalogProgram.i: DatalogProgram.cpp.i
+
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
 EOFAutomaton.obj: EOFAutomaton.cpp.obj
 
 .PHONY : EOFAutomaton.obj
@@ -814,6 +841,9 @@ help:
 	@echo ... CommentAutomaton.obj
 	@echo ... CommentAutomaton.i
 	@echo ... CommentAutomaton.s
+	@echo ... DatalogProgram.obj
+	@echo ... DatalogProgram.i
+	@echo ... DatalogProgram.s
 	@echo ... EOFAutomaton.obj
 	@echo ... EOFAutomaton.i
 	@echo ... EOFAutomaton.s
