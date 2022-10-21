@@ -94,7 +94,10 @@ vector<Token *> Lexer::Run(std::string& input) {
             lineNumber = lineNumber + maxAutomatonation->NewLinesRead();
 
             if(newToken->getType() != TokenType::WHITESPACE){
-                tokens.push_back(newToken);
+
+                if(newToken->getType() != TokenType::COMMENT){
+                    tokens.push_back(newToken);
+                }
             }
 
 
@@ -106,7 +109,10 @@ vector<Token *> Lexer::Run(std::string& input) {
             maxRead = 1;
             newToken = new Token(TokenType:: UNDEFINED, input.substr(0,1), lineNumber);
             lineNumber += maxAutomatonation->NewLinesRead();
-            tokens.push_back(newToken);
+            if(newToken->getType() != TokenType::COMMENT){
+                tokens.push_back(newToken);
+            }
+
 
         }
         input.erase(input.begin(),input.begin() + maxRead);
@@ -119,6 +125,7 @@ vector<Token *> Lexer::Run(std::string& input) {
     tokens.push_back(EOFToken);
 
     for (int i = 0; i < (int)tokens.size(); i++){
+
         tokens.at(i)->ToString();
 
     }

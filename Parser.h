@@ -13,13 +13,14 @@ using namespace std;
 class Parser {
 
 private:
+
+
     vector<Token*>tokens;
+
+
 public:
-    void iterateThroughTokens();
-    void parse();
-    Parser(vector<Token*>tokensFromMain);
-
-
+    Parser(vector<Token *> tokensFromMain);
+    DatalogProgram parse(vector<Token *> tokens);
 };
 
 

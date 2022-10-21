@@ -7,6 +7,8 @@
 
 
 class DatalogProgram {
+private:
+
 
 };
 
