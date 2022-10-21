@@ -426,6 +426,48 @@ CMakeFiles/project_2.dir/DatalogProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/DatalogProgram.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\DatalogProgram.cpp -o CMakeFiles\project_2.dir\DatalogProgram.cpp.s
 
+CMakeFiles/project_2.dir/Predicate.cpp.obj: CMakeFiles/project_2.dir/flags.make
+CMakeFiles/project_2.dir/Predicate.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
+CMakeFiles/project_2.dir/Predicate.cpp.obj: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/project_2.dir/Predicate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Predicate.cpp.obj -c C:\Users\18017\CS236\project-2\Predicate.cpp
+
+CMakeFiles/project_2.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Predicate.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Predicate.cpp > CMakeFiles\project_2.dir\Predicate.cpp.i
+
+CMakeFiles/project_2.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Predicate.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Predicate.cpp -o CMakeFiles\project_2.dir\Predicate.cpp.s
+
+CMakeFiles/project_2.dir/Rule.cpp.obj: CMakeFiles/project_2.dir/flags.make
+CMakeFiles/project_2.dir/Rule.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
+CMakeFiles/project_2.dir/Rule.cpp.obj: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/project_2.dir/Rule.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Rule.cpp.obj -c C:\Users\18017\CS236\project-2\Rule.cpp
+
+CMakeFiles/project_2.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Rule.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Rule.cpp > CMakeFiles\project_2.dir\Rule.cpp.i
+
+CMakeFiles/project_2.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Rule.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Rule.cpp -o CMakeFiles\project_2.dir\Rule.cpp.s
+
+CMakeFiles/project_2.dir/Parameter.cpp.obj: CMakeFiles/project_2.dir/flags.make
+CMakeFiles/project_2.dir/Parameter.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
+CMakeFiles/project_2.dir/Parameter.cpp.obj: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/project_2.dir/Parameter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Parameter.cpp.obj -c C:\Users\18017\CS236\project-2\Parameter.cpp
+
+CMakeFiles/project_2.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Parameter.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Parameter.cpp > CMakeFiles\project_2.dir\Parameter.cpp.i
+
+CMakeFiles/project_2.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Parameter.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Parameter.cpp -o CMakeFiles\project_2.dir\Parameter.cpp.s
+
 # Object files for target project_2
 project_2_OBJECTS = \
 "CMakeFiles/project_2.dir/ColonAutomaton.cpp.obj" \
@@ -452,7 +494,10 @@ project_2_OBJECTS = \
 "CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj" \
 "CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj" \
 "CMakeFiles/project_2.dir/Parser.cpp.obj" \
-"CMakeFiles/project_2.dir/DatalogProgram.cpp.obj"
+"CMakeFiles/project_2.dir/DatalogProgram.cpp.obj" \
+"CMakeFiles/project_2.dir/Predicate.cpp.obj" \
+"CMakeFiles/project_2.dir/Rule.cpp.obj" \
+"CMakeFiles/project_2.dir/Parameter.cpp.obj"
 
 # External object files for target project_2
 project_2_EXTERNAL_OBJECTS =
@@ -482,11 +527,14 @@ project_2.exe: CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/Parser.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/DatalogProgram.cpp.obj
+project_2.exe: CMakeFiles/project_2.dir/Predicate.cpp.obj
+project_2.exe: CMakeFiles/project_2.dir/Rule.cpp.obj
+project_2.exe: CMakeFiles/project_2.dir/Parameter.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/build.make
 project_2.exe: CMakeFiles/project_2.dir/linklibs.rsp
 project_2.exe: CMakeFiles/project_2.dir/objects1.rsp
 project_2.exe: CMakeFiles/project_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable project_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable project_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

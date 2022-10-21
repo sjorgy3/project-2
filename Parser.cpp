@@ -10,11 +10,16 @@ using namespace std;
 
 Parser::Parser(vector<Token *> tokensFromMain) {
     tokens = tokensFromMain;
+}
+Parser::~Parser()=default;
 
 
+void Parser::parse() {
 
 }
+DatalogProgram Parser::datalogprogram(){
 
+}
 
 
 

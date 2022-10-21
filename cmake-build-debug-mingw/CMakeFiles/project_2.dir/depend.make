@@ -142,7 +142,9 @@ CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj: ../WhiteSpaceAutomaton.cpp
 CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj: ../WhiteSpaceAutomaton.h
 
 CMakeFiles/project_2.dir/main.cpp.obj: ../Automaton.h
+CMakeFiles/project_2.dir/main.cpp.obj: ../DatalogProgram.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Lexer.h
+CMakeFiles/project_2.dir/main.cpp.obj: ../Parser.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Token.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../main.cpp
 

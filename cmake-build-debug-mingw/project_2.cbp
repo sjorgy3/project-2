@@ -163,6 +163,12 @@
 		<Unit filename="C:/Users/18017/CS236/project-2/MultiplyAutomaton.h">
 			<Option target="project_2"/>
 		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/Parameter.cpp">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/Parameter.h">
+			<Option target="project_2"/>
+		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-2/Parser.cpp">
 			<Option target="project_2"/>
 		</Unit>
@@ -173,6 +179,12 @@
 			<Option target="project_2"/>
 		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-2/PeriodAutomaton.h">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/Predicate.cpp">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/Predicate.h">
 			<Option target="project_2"/>
 		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-2/Q_MarkAutomaton.cpp">
@@ -191,6 +203,12 @@
 			<Option target="project_2"/>
 		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-2/Right_ParenAutomaton.h">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/Rule.cpp">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-2/Rule.h">
 			<Option target="project_2"/>
 		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-2/RulesAutomaton.cpp">

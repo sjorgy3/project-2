@@ -18,9 +18,13 @@ private:
     vector<Token*>tokens;
 
 
+
 public:
+
     Parser(vector<Token *> tokensFromMain);
-    DatalogProgram parse(vector<Token *> tokens);
+    ~Parser();
+    void parse();
+    DatalogProgram datalogprogram();
 };
 
 
