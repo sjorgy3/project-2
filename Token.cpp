@@ -17,7 +17,7 @@ Token::Token(TokenType type, std::string description, int line) {
 }
 
 void Token::ToString() {
-   cout << "(" << tokenToSTring(getType()) << ",\"" << getdescription() << "\"," << getLine() << ")" << endl;
+   //cout << "(" << tokenToSTring(getType()) << ",\"" << getdescription() << "\"," << getLine() << ")" << endl;
 
 
 }

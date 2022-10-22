@@ -130,7 +130,7 @@ vector<Token *> Lexer::Run(std::string& input) {
 
     }
 
-    cout<<"Total Tokens = " << (int)tokens.size();
+    //cout<<"Total Tokens = " << (int)tokens.size();
     return tokens;
 
 

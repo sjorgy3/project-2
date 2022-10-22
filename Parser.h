@@ -7,6 +7,7 @@
 #include "Token.h"
 #include "lexer.h"
 #include "DatalogProgram.h"
+#include "Predicate.h"
 
 using namespace std;
 
@@ -14,7 +15,7 @@ class Parser {
 
 private:
 
-
+    int tokenLocation =0;
     vector<Token*>tokens;
 
 
@@ -23,8 +24,25 @@ public:
 
     Parser(vector<Token *> tokensFromMain);
     ~Parser();
-    void parse();
     DatalogProgram datalogprogram();
+    void parse();
+    void schemeList();
+    void factList();
+    void ruleList();
+    void queryList();
+    void scheme();
+    void fact();
+    void rule();
+    void query();
+    void headPredicate();
+    void predicate();
+    void predicateList();
+    void parameterList();
+    void stringList();
+    void idList();
+    void parameter();
+
+    void match(TokenType tokenType);
 };
 
 
