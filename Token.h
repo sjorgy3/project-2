@@ -46,6 +46,7 @@ public:
     std::string tokenToSTring(TokenType type);
 
 
+    TokenType getTypeString();
 };
 
 #endif // TOKEN_H

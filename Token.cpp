@@ -26,6 +26,7 @@ TokenType Token::getType() {
     return token;
 }
 
+
 std::string Token::getdescription() {
     return textDescription;
 }

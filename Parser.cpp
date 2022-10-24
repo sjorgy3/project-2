@@ -16,7 +16,7 @@ Parser::~Parser()=default;
 
 
 void Parser::match(TokenType tokenType){
-    TokenType type = tokens.at(tokenLocation)->getType();
+    //TokenType type = tokens.at(tokenLocation)->getType();
     if(tokens.at(tokenLocation)->getType() == tokenType){
         tokenLocation++;
     }
@@ -30,9 +30,11 @@ void Parser::parse() {
     try {
         datalogprogram();
         cout << "Success!" << endl;
+
     }
     catch (Token error){
         cout << "Failure!" << endl;
+        cout << "  (" << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType()) << ",\""<<  tokens.at(tokenLocation)->getdescription()<<"\","<<tokens.at(tokenLocation)->getLine() << ")";
 
     }
 
