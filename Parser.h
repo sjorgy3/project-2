@@ -17,7 +17,8 @@ private:
 
     int tokenLocation =0;
     vector<Token*>tokens;
-
+    DatalogProgram object;
+    Predicate newPredicate;
 
 
 public:

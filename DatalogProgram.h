@@ -6,8 +6,23 @@
 #define PROJECT_2_DATALOGPROGRAM_H
 
 
+#include <vector>
+#include "Predicate.h"
+#include "Rule.h"
+using namespace std;
+
 class DatalogProgram {
-private:
+
+    vector<Predicate>schemes;
+    vector<Predicate>facts;
+    vector<Rule>rules;
+    vector<Predicate>queries;
+
+public:
+    void addToSchemes(Predicate newScheme);
+    void addToFacts(Predicate newFact);
+    void addToRules(Rule newRule);
+    void addToQueries(Predicate newQuery);
 
 
 };

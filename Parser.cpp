@@ -16,7 +16,6 @@ Parser::~Parser()=default;
 
 
 void Parser::match(TokenType tokenType){
-    //TokenType type = tokens.at(tokenLocation)->getType();
     if(tokens.at(tokenLocation)->getType() == tokenType){
         tokenLocation++;
     }
@@ -60,7 +59,7 @@ DatalogProgram Parser::datalogprogram(){
     queryList();
     match(TokenType::ENDOFFILE);
 
-}
+    }
 //schemeList	->	scheme schemeList | lambda Follow = FACTS
 void Parser::schemeList() {
     if (tokens.at(tokenLocation)->getType() == TokenType::ID){
@@ -129,11 +128,15 @@ void Parser::queryList(){
 
 }
 void Parser::scheme(){
+    //clear newPredicate, set curr token to name in newPredicate newpred.setname=currtoken.value
     match(TokenType::ID);
     match(TokenType::LEFT_PAREN);
+    //push currtoken to newPredicate vector .pushBack(param || string)
     match(TokenType::ID);
     idList();
     match(TokenType::RIGHT_PAREN);
+    Predicate newScheme = Predicate();
+    object.addToSchemes(newScheme);
 
 }
 void Parser::fact(){
@@ -143,6 +146,8 @@ void Parser::fact(){
     stringList();
     match(TokenType::RIGHT_PAREN);
     match(TokenType::PERIOD);
+   /* Predicate* newFact = new Predicate();
+    datalogprogram().addToFacts(*newFact);*/
 
 
 
@@ -153,15 +158,20 @@ void Parser::rule(){
     predicate();
     predicateList();
     match(TokenType::PERIOD);
+   /* Rule* newRule = new Rule();
+    datalogprogram().addToRules(*newRule);*/
 
 }
 void Parser::query(){
     predicate();
     match(TokenType::Q_MARK);
+   /* Predicate* newQuery = new Predicate();
+    datalogprogram().addToQueries(*newQuery);*/
 
 }
 void Parser::headPredicate(){
     match(TokenType::ID);
+    //cout << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType());
     match(TokenType::LEFT_PAREN);
     match(TokenType::ID);
     idList();
@@ -240,6 +250,7 @@ void Parser::stringList(){
 void Parser::idList(){
     if (tokens.at(tokenLocation)->getType() == TokenType::COMMA){
         match(TokenType::COMMA);
+        //push curr token back to newPred vector
         match(TokenType::ID);
         idList();
 
