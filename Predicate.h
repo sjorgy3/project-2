@@ -4,11 +4,23 @@
 
 #ifndef PROJECT_2_PREDICATE_H
 #define PROJECT_2_PREDICATE_H
+#include <string>
+#include "Parameter.h"
+#include <vector>
+#include <sstream>
+
+using namespace std;
 
 
 class Predicate {
-
-
+    vector<Parameter> parameters;
+    string nameToSet;
+public:
+    Predicate()=default;
+    void addName(string nametoadd);
+    void addParameter(Parameter param);
+    string toString();
+    void clear();
 };
 
 

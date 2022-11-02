@@ -4,9 +4,22 @@
 
 #ifndef PROJECT_2_PARAMETER_H
 #define PROJECT_2_PARAMETER_H
-
+#include <string>
+#include <vector>
+#include <sstream>
+using namespace std;
 
 class Parameter {
+private:
+    string parameter;
+
+
+public:
+    Parameter() = default;
+    Parameter(string name);
+
+    string toString();
+
 
 };
 

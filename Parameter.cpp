@@ -3,3 +3,13 @@
 //
 
 #include "Parameter.h"
+
+string Parameter::toString() {
+
+    return parameter;
+}
+
+Parameter::Parameter(string s) {
+    parameter=s;
+
+}

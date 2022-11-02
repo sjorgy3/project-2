@@ -9,20 +9,25 @@
 #include <vector>
 #include "Predicate.h"
 #include "Rule.h"
+#include "set"
+
 using namespace std;
 
 class DatalogProgram {
-
     vector<Predicate>schemes;
     vector<Predicate>facts;
     vector<Rule>rules;
     vector<Predicate>queries;
+    set<string>domain;
+
 
 public:
     void addToSchemes(Predicate newScheme);
     void addToFacts(Predicate newFact);
     void addToRules(Rule newRule);
     void addToQueries(Predicate newQuery);
+    void addToDomain(Parameter newParameter);
+    void toString();
 
 
 };

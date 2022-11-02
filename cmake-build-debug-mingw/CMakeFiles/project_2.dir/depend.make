@@ -28,6 +28,7 @@ CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj: ../Token.h
 
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: ../DatalogProgram.cpp
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: ../DatalogProgram.h
+CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: ../Parameter.h
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: ../Predicate.h
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: ../Rule.h
 
@@ -92,6 +93,7 @@ CMakeFiles/project_2.dir/Parameter.cpp.obj: ../Parameter.h
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../Automaton.h
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../DatalogProgram.h
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../Lexer.h
+CMakeFiles/project_2.dir/Parser.cpp.obj: ../Parameter.h
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../Parser.cpp
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../Parser.h
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../Predicate.h
@@ -103,6 +105,7 @@ CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj: ../PeriodAutomaton.cpp
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj: ../PeriodAutomaton.h
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj: ../Token.h
 
+CMakeFiles/project_2.dir/Predicate.cpp.obj: ../Parameter.h
 CMakeFiles/project_2.dir/Predicate.cpp.obj: ../Predicate.cpp
 CMakeFiles/project_2.dir/Predicate.cpp.obj: ../Predicate.h
 
@@ -121,6 +124,8 @@ CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj: ../Right_ParenAutomaton.c
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj: ../Right_ParenAutomaton.h
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj: ../Token.h
 
+CMakeFiles/project_2.dir/Rule.cpp.obj: ../Parameter.h
+CMakeFiles/project_2.dir/Rule.cpp.obj: ../Predicate.h
 CMakeFiles/project_2.dir/Rule.cpp.obj: ../Rule.cpp
 CMakeFiles/project_2.dir/Rule.cpp.obj: ../Rule.h
 
@@ -157,6 +162,7 @@ CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj: ../WhiteSpaceAutomaton.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Automaton.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../DatalogProgram.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Lexer.h
+CMakeFiles/project_2.dir/main.cpp.obj: ../Parameter.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Parser.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Predicate.h
 CMakeFiles/project_2.dir/main.cpp.obj: ../Rule.h
