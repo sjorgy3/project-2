@@ -27,6 +27,7 @@ int main(int argc, char** argv) {
 
     vector<Token*>tokenVector = lexer->Run(text);
     Parser* parser = new Parser(tokenVector);
+    parser->parse();
 
 
 

@@ -5,12 +5,11 @@
 #include <iostream>
 #include "Parser.h"
 #include "Token.h"
-#include "lexer.h"
+#include "Lexer.h"
 using namespace std;
 
 Parser::Parser(vector<Token *> tokensFromMain) {
     tokens = tokensFromMain;
-    parse();
 }
 Parser::~Parser()=default;
 
