@@ -24,6 +24,7 @@ void DatalogProgram::addToQueries(Predicate newQuery) {
 }
 
 void DatalogProgram::toString() {
+    cout << "Success!" << endl;
     cout << "Schemes(" << schemes.size() << "):" << endl;
     for (int i = 0; i < schemes.size(); i++){
         cout << "  " << schemes.at(i).toString() << endl;

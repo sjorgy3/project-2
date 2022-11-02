@@ -26,8 +26,15 @@ void Parser::match(TokenType tokenType){
 }
 
 void Parser::parse() {
+
+    /*for (unsigned int i = 0; i < tokens.size(); i++){
+        if (tokens.at(i)->getType() != TokenType::COMMENT){
+            commentFreeTokens.push_back(tokens.at(i));
+
+        }
+    }*/
+
     try {
-        cout << "Success!" << endl;
         datalogprogram();
 
 

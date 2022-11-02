@@ -9,6 +9,8 @@ class Lexer
 private:
     std::vector<Automaton*> automata;
     std::vector<Token*> tokens;
+    std::vector<Token*> commentFreeTokens;
+
 
 
     void CreateAutomata();

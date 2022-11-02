@@ -22,7 +22,7 @@ private:
     set<string>domain;
     Predicate newPredicate;
     Rule newRule;
-
+    //vector<Token*>commentFreeTokens;
 
 public:
 
