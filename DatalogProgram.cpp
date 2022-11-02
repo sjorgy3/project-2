@@ -35,7 +35,7 @@ void DatalogProgram::toString() {
     }
     cout << "Rules(" << rules.size() << "):" << endl;
     for (unsigned int i = 0; i < rules.size(); i++){
-        cout << "  " << rules.at(i).toString() << endl;
+        cout << "  " << rules.at(i).toString() << "." << endl;
     }
     cout << "Queries(" << queries.size() << "):" << endl;
     for (unsigned int i = 0; i < queries.size(); i++){
