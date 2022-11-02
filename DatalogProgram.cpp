@@ -39,7 +39,7 @@ void DatalogProgram::toString() {
     }
     cout << "Queries(" << queries.size() << "):" << endl;
     for (unsigned int i = 0; i < queries.size(); i++){
-        cout << "  " << queries.at(i).toString() << endl;
+        cout << "  " << queries.at(i).toString() << "?"<< endl;
     }
     cout << "Domain(" << domain.size() << "):" << endl;
     for (auto it=domain.begin(); it != domain.end(); ++it)
