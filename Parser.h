@@ -5,7 +5,7 @@
 #ifndef PROJECT_2_PARSER_H
 #define PROJECT_2_PARSER_H
 #include "Token.h"
-#include "lexer.h"
+#include "Lexer.h"
 #include "DatalogProgram.h"
 #include "Predicate.h"
 #include <set>

@@ -15,15 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f21df41-eac8-4f7f-981e-3bcba5e3c272" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatalogProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile_lab_1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +153,7 @@
       <workItem from="1666567166212" duration="8197000" />
       <workItem from="1666630786439" duration="1526000" />
       <workItem from="1667173608029" duration="1469000" />
-      <workItem from="1667340430353" duration="21977000" />
+      <workItem from="1667340430353" duration="22293000" />
     </task>
     <task id="LOCAL-00001" summary="Commitation">
       <created>1663208615839</created>
@@ -393,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667427338345</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Commitation">
+      <created>1667430070003</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1667430070003</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Commitation">
+      <created>1667430098316</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1667430098316</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

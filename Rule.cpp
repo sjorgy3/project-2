@@ -16,7 +16,7 @@ predicates.push_back(pred);
 string Rule::toString() {
     stringstream ss;
     ss << headPredicate.toString() << " :- ";
-    for(int i = 0; i < predicates.size(); i++){
+    for(unsigned int i = 0; i < predicates.size(); i++){
         ss << predicates.at(i).toString();
         if (i != predicates.size()-1){
             ss << ",";

@@ -26,19 +26,19 @@ void DatalogProgram::addToQueries(Predicate newQuery) {
 void DatalogProgram::toString() {
     cout << "Success!" << endl;
     cout << "Schemes(" << schemes.size() << "):" << endl;
-    for (int i = 0; i < schemes.size(); i++){
+    for (unsigned int i = 0; i < schemes.size(); i++){
         cout << "  " << schemes.at(i).toString() << endl;
     }
     cout << "Facts(" << facts.size() << "):" << endl;
-    for (int i = 0; i < facts.size(); i++) {
+    for (unsigned int i = 0; i < facts.size(); i++) {
         cout << "  " << facts.at(i).toString() << "." << endl;
     }
     cout << "Rules(" << rules.size() << "):" << endl;
-    for (int i = 0; i < rules.size(); i++){
+    for (unsigned int i = 0; i < rules.size(); i++){
         cout << "  " << rules.at(i).toString() << endl;
     }
     cout << "Queries(" << queries.size() << "):" << endl;
-    for (int i = 0; i < queries.size(); i++){
+    for (unsigned int i = 0; i < queries.size(); i++){
         cout << "  " << queries.at(i).toString() << endl;
     }
     cout << "Domain(" << domain.size() << "):" << endl;
