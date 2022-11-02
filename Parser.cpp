@@ -9,7 +9,12 @@
 using namespace std;
 
 Parser::Parser(vector<Token *> tokensFromMain) {
-    tokens = tokensFromMain;
+    //tokens = tokensFromMain;
+    for(int i = 0; i < tokensFromMain.size(); i++){
+        if(tokensFromMain.at(i)->getType() != TokenType::COMMENT && tokensFromMain.at(i)->getType() != TokenType::LINECOMMENT){
+            tokens.push_back(tokensFromMain.at(i));
+        }
+    }
 }
 Parser::~Parser()=default;
 
@@ -26,16 +31,8 @@ void Parser::match(TokenType tokenType){
 
 void Parser::parse() {
 
-    /*for (unsigned int i = 0; i < tokens.size(); i++){
-        if (tokens.at(i)->getType() != TokenType::COMMENT){
-            commentFreeTokens.push_back(tokens.at(i));
-
-        }
-    }*/
-
     try {
         datalogprogram();
-
 
     }
     catch (Token error){

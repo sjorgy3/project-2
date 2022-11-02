@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include "Parser.h"
+#include <vector>
 
 using namespace std;
 
